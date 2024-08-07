@@ -192,6 +192,40 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
+AnnotateOrder=29
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EXWNFARM
+
+[Document10]
+DocumentPath=DIOT_Connectors_P1_P6.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=EEM_Connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
 AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
@@ -207,7 +241,7 @@ UniqueID=1AD862EE-1492-42C1-B3BE-D7C2FF4DAFDD
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=11
 Variation1=Designator=IC15|UniqueId=\USKRQQQR\IACHKCBF|Kind=0|AlternatePart= 
 Variation2=Designator=IC14|UniqueId=\USKRQQQR\XSULIIOV|Kind=1|AlternatePart= 
 Variation3=Designator=R44|UniqueId=\USKRQQQR\PXLQBKOH|Kind=1|AlternatePart= 
@@ -215,9 +249,10 @@ Variation4=Designator=R47|UniqueId=\USKRQQQR\XIMFCCPS|Kind=1|AlternatePart=
 Variation5=Designator=R49|UniqueId=\USKRQQQR\IDMRQTMY|Kind=1|AlternatePart= 
 Variation6=Designator=IC18|UniqueId=\USKRQQQR\BYZCWIZU|Kind=1|AlternatePart= 
 Variation7=Designator=C56|UniqueId=\USKRQQQR\GZKDUUMQ|Kind=1|AlternatePart= 
-Variation8=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=1|AlternatePart= 
+Variation8=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=0|AlternatePart= 
 Variation9=Designator=C212|UniqueId=\TWPEJCGJ|Kind=1|AlternatePart= 
 Variation10=Designator=R126|UniqueId=\NULHDFKJ|Kind=1|AlternatePart= 
+Variation11=Designator=R53|UniqueId=\USKRQQQR\MEEOPJJE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -225,9 +260,9 @@ UniqueID=67855615-638D-4FC2-926E-F3570AD9D74D
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=40
+VariationCount=65
 Variation1=Designator=IC18|UniqueId=\USKRQQQR\BYZCWIZU|Kind=1|AlternatePart= 
-Variation2=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=1|AlternatePart= 
+Variation2=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=0|AlternatePart= 
 Variation3=Designator=C56|UniqueId=\USKRQQQR\GZKDUUMQ|Kind=1|AlternatePart= 
 Variation4=Designator=IC14|UniqueId=\USKRQQQR\XSULIIOV|Kind=1|AlternatePart= 
 Variation5=Designator=R44|UniqueId=\USKRQQQR\PXLQBKOH|Kind=1|AlternatePart= 
@@ -266,6 +301,31 @@ Variation37=Designator=R160|UniqueId=\HFXIRERH\BIOBOZXW|Kind=1|AlternatePart=
 Variation38=Designator=R178|UniqueId=\HFXIRERH\IIRHGDKZ|Kind=1|AlternatePart= 
 Variation39=Designator=R119|UniqueId=\BWOYQLFK|Kind=1|AlternatePart= 
 Variation40=Designator=R120|UniqueId=\HQOARTTK|Kind=1|AlternatePart= 
+Variation41=Designator=R53|UniqueId=\USKRQQQR\MEEOPJJE|Kind=1|AlternatePart= 
+Variation42=Designator=IC19|UniqueId=\RTXBABPE\PLBIVSAZ|Kind=1|AlternatePart= 
+Variation43=Designator=C78|UniqueId=\RTXBABPE\HZUSHDAU|Kind=1|AlternatePart= 
+Variation44=Designator=IC24|UniqueId=\RTXBABPE\KCJFAQIE|Kind=1|AlternatePart= 
+Variation45=Designator=IC23|UniqueId=\RTXBABPE\DZRDZSLS|Kind=1|AlternatePart= 
+Variation46=Designator=D9|UniqueId=\RTXBABPE\NVMWKHDO|Kind=1|AlternatePart= 
+Variation47=Designator=C65|UniqueId=\RTXBABPE\SFMJAAYA|Kind=1|AlternatePart= 
+Variation48=Designator=C60|UniqueId=\RTXBABPE\HVVIFSND|Kind=1|AlternatePart= 
+Variation49=Designator=T3|UniqueId=\RTXBABPE\FQZQEJCJ|Kind=1|AlternatePart= 
+Variation50=Designator=R74|UniqueId=\RTXBABPE\FGQEXATS|Kind=1|AlternatePart= 
+Variation51=Designator=C75|UniqueId=\RTXBABPE\USSJEEPY|Kind=1|AlternatePart= 
+Variation52=Designator=R54|UniqueId=\RTXBABPE\QPWPWIOL|Kind=1|AlternatePart= 
+Variation53=Designator=C77|UniqueId=\RTXBABPE\FFLVLZLT|Kind=1|AlternatePart= 
+Variation54=Designator=C76|UniqueId=\RTXBABPE\OHBAHWJA|Kind=1|AlternatePart= 
+Variation55=Designator=R73|UniqueId=\RTXBABPE\XULWXXZZ|Kind=1|AlternatePart= 
+Variation56=Designator=R64|UniqueId=\RTXBABPE\KCBXVVVE|Kind=1|AlternatePart= 
+Variation57=Designator=C74|UniqueId=\RTXBABPE\XUWLMFEQ|Kind=1|AlternatePart= 
+Variation58=Designator=R71|UniqueId=\RTXBABPE\QTVRDXBG|Kind=1|AlternatePart= 
+Variation59=Designator=R72|UniqueId=\RTXBABPE\NQDHJDIN|Kind=1|AlternatePart= 
+Variation60=Designator=R48|UniqueId=\RTXBABPE\YWGDYJID|Kind=1|AlternatePart= 
+Variation61=Designator=R70|UniqueId=\RTXBABPE\HACUAUWV|Kind=1|AlternatePart= 
+Variation62=Designator=R69|UniqueId=\RTXBABPE\DWXLIRLH|Kind=1|AlternatePart= 
+Variation63=Designator=R66|UniqueId=\RTXBABPE\TNGNABMF|Kind=1|AlternatePart= 
+Variation64=Designator=IC27|UniqueId=\HFXIRERH\QNGSZDUT|Kind=1|AlternatePart= 
+Variation65=Designator=C79|UniqueId=\HFXIRERH\HRTYJYNS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -909,36 +969,6 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Ansoft Neutral
-OutputName11=Ansoft Neutral (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=HyperLynx
-OutputName12=HyperLynx (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

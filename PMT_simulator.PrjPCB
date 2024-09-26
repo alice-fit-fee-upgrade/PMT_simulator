@@ -236,6 +236,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=LVDS_IFC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=1AD862EE-1492-42C1-B3BE-D7C2FF4DAFDD
 Description=DIOT
@@ -328,28 +345,32 @@ Variation64=Designator=IC27|UniqueId=\HFXIRERH\QNGSZDUT|Kind=1|AlternatePart=
 Variation65=Designator=C79|UniqueId=\HFXIRERH\HRTYJYNS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Phaser\Design Rule Check - PMT_simulator.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Address1
-Value=Warsaw University of Technology
+Name=TopTitle
+Value=ALICE PMT Simulator
 
 [Parameter2]
-Name=Address2
-Value=Nowowiejska 15/19 00-665 Warsaw
+Name=SheetTotal
+Value=12
 
 [Parameter3]
-Name=Address3
-Value=
+Name=rev
+Value=1.0
 
 [Parameter4]
-Name=CheckedBy
-Value=-
+Name=Projet
+Value=ALICE
 
 [Parameter5]
-Name=CheckedDate
-Value=-
+Name=Project1
+Value=ALICE PMT Simulator
 
 [Parameter6]
-Name=Designer
+Name=DrawnBy
 Value=
 
 [Parameter7]
@@ -357,28 +378,28 @@ Name=DivGrp
 Value=ISE
 
 [Parameter8]
-Name=DrawnBy
+Name=Designer
 Value=
 
 [Parameter9]
-Name=Project1
-Value=ALICE PMT Simulator
+Name=CheckedDate
+Value=-
 
 [Parameter10]
-Name=Projet
-Value=ALICE
+Name=CheckedBy
+Value=-
 
 [Parameter11]
-Name=rev
-Value=1.0
+Name=Address3
+Value=
 
 [Parameter12]
-Name=SheetTotal
-Value=12
+Name=Address2
+Value=Nowowiejska 15/19 00-665 Warsaw
 
 [Parameter13]
-Name=TopTitle
-Value=ALICE PMT Simulator
+Name=Address1
+Value=Warsaw University of Technology
 
 [Configuration1]
 Name=Sources
@@ -1212,8 +1233,8 @@ Type35=1
 Type36=2
 Type37=1
 Type38=2
-Type39=2
-Type40=2
+Type39=1
+Type40=1
 Type41=0
 Type42=2
 Type43=1

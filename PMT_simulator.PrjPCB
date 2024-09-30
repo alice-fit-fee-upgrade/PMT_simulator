@@ -258,7 +258,7 @@ UniqueID=1AD862EE-1492-42C1-B3BE-D7C2FF4DAFDD
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
+VariationCount=20
 Variation1=Designator=IC15|UniqueId=\USKRQQQR\IACHKCBF|Kind=0|AlternatePart= 
 Variation2=Designator=IC14|UniqueId=\USKRQQQR\XSULIIOV|Kind=1|AlternatePart= 
 Variation3=Designator=R44|UniqueId=\USKRQQQR\PXLQBKOH|Kind=1|AlternatePart= 
@@ -270,6 +270,15 @@ Variation8=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=0|AlternatePart=
 Variation9=Designator=C212|UniqueId=\TWPEJCGJ|Kind=1|AlternatePart= 
 Variation10=Designator=R126|UniqueId=\NULHDFKJ|Kind=1|AlternatePart= 
 Variation11=Designator=R53|UniqueId=\USKRQQQR\MEEOPJJE|Kind=1|AlternatePart= 
+Variation12=Designator=C82|UniqueId=\DXMFZCDP\RZGPZYRH|Kind=1|AlternatePart= 
+Variation13=Designator=R39|UniqueId=\DXMFZCDP\ZLFCCJHD|Kind=1|AlternatePart= 
+Variation14=Designator=IC30|UniqueId=\DXMFZCDP\YTRVOHIX|Kind=1|AlternatePart= 
+Variation15=Designator=IC37|UniqueId=\HFXIRERH\USWXVAMJ|Kind=1|AlternatePart= 
+Variation16=Designator=IC38|UniqueId=\HFXIRERH\WONDITYL|Kind=1|AlternatePart= 
+Variation17=Designator=J8|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart= 
+Variation18=Designator=J9|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart= 
+Variation19=Designator=D11|UniqueId=\USKRQQQR\TPTIKJPD|Kind=1|AlternatePart= 
+Variation20=Designator=D12|UniqueId=\USKRQQQR\YWVCHFAI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -277,7 +286,7 @@ UniqueID=67855615-638D-4FC2-926E-F3570AD9D74D
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=65
+VariationCount=68
 Variation1=Designator=IC18|UniqueId=\USKRQQQR\BYZCWIZU|Kind=1|AlternatePart= 
 Variation2=Designator=R56|UniqueId=\USKRQQQR\MYDSBHVX|Kind=0|AlternatePart= 
 Variation3=Designator=C56|UniqueId=\USKRQQQR\GZKDUUMQ|Kind=1|AlternatePart= 
@@ -343,6 +352,9 @@ Variation62=Designator=R69|UniqueId=\RTXBABPE\DWXLIRLH|Kind=1|AlternatePart=
 Variation63=Designator=R66|UniqueId=\RTXBABPE\TNGNABMF|Kind=1|AlternatePart= 
 Variation64=Designator=IC27|UniqueId=\HFXIRERH\QNGSZDUT|Kind=1|AlternatePart= 
 Variation65=Designator=C79|UniqueId=\HFXIRERH\HRTYJYNS|Kind=1|AlternatePart= 
+Variation66=Designator=IC30|UniqueId=\DXMFZCDP\YTRVOHIX|Kind=1|AlternatePart= 
+Variation67=Designator=R39|UniqueId=\DXMFZCDP\ZLFCCJHD|Kind=1|AlternatePart= 
+Variation68=Designator=C82|UniqueId=\DXMFZCDP\RZGPZYRH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -350,27 +362,27 @@ DocumentPath=Project Outputs for Phaser\Design Rule Check - PMT_simulator.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=TopTitle
-Value=ALICE PMT Simulator
+Name=Address1
+Value=Warsaw University of Technology
 
 [Parameter2]
-Name=SheetTotal
-Value=12
+Name=Address2
+Value=Nowowiejska 15/19 00-665 Warsaw
 
 [Parameter3]
-Name=rev
-Value=1.0
+Name=Address3
+Value=
 
 [Parameter4]
-Name=Projet
-Value=ALICE
+Name=CheckedBy
+Value=-
 
 [Parameter5]
-Name=Project1
-Value=ALICE PMT Simulator
+Name=CheckedDate
+Value=-
 
 [Parameter6]
-Name=DrawnBy
+Name=Designer
 Value=
 
 [Parameter7]
@@ -378,28 +390,28 @@ Name=DivGrp
 Value=ISE
 
 [Parameter8]
-Name=Designer
+Name=DrawnBy
 Value=
 
 [Parameter9]
-Name=CheckedDate
-Value=-
+Name=Project1
+Value=ALICE PMT Simulator
 
 [Parameter10]
-Name=CheckedBy
-Value=-
+Name=Projet
+Value=ALICE
 
 [Parameter11]
-Name=Address3
-Value=
+Name=rev
+Value=1.0
 
 [Parameter12]
-Name=Address2
-Value=Nowowiejska 15/19 00-665 Warsaw
+Name=SheetTotal
+Value=12
 
 [Parameter13]
-Name=Address1
-Value=Warsaw University of Technology
+Name=TopTitle
+Value=ALICE PMT Simulator
 
 [Configuration1]
 Name=Sources

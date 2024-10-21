@@ -10,7 +10,7 @@ ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
-PinSwapBy_Netlabel=1
+PinSwapBy_Netlabel=0
 PinSwapBy_Pin=0
 AllowPortNetNames=0
 AllowSheetEntryNetNames=1
@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Phaser
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -361,28 +361,32 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for Phaser\Design Rule Check - PMT_simulator.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PMT_simulator\Design Rule Check - PMT_simulator.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Address1
-Value=Warsaw University of Technology
+Name=TopTitle
+Value=ALICE PMT Simulator
 
 [Parameter2]
-Name=Address2
-Value=Nowowiejska 15/19 00-665 Warsaw
+Name=SheetTotal
+Value=12
 
 [Parameter3]
-Name=Address3
-Value=
+Name=rev
+Value=1.0.1
 
 [Parameter4]
-Name=CheckedBy
-Value=-
+Name=Projet
+Value=ALICE
 
 [Parameter5]
-Name=CheckedDate
-Value=-
+Name=Project1
+Value=ALICE PMT Simulator
 
 [Parameter6]
-Name=Designer
+Name=DrawnBy
 Value=
 
 [Parameter7]
@@ -390,28 +394,28 @@ Name=DivGrp
 Value=ISE
 
 [Parameter8]
-Name=DrawnBy
+Name=Designer
 Value=
 
 [Parameter9]
-Name=Project1
-Value=ALICE PMT Simulator
+Name=CheckedDate
+Value=-
 
 [Parameter10]
-Name=Projet
-Value=ALICE
+Name=CheckedBy
+Value=-
 
 [Parameter11]
-Name=rev
-Value=1.0
+Name=Address3
+Value=
 
 [Parameter12]
-Name=SheetTotal
-Value=12
+Name=Address2
+Value=Nowowiejska 15/19 00-665 Warsaw
 
 [Parameter13]
-Name=TopTitle
-Value=ALICE PMT Simulator
+Name=Address1
+Value=Warsaw University of Technology
 
 [Configuration1]
 Name=Sources
@@ -424,7 +428,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Phaser
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1002,6 +1006,36 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
+OutputType11=Ansoft Neutral
+OutputName11=Ansoft Neutral (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=HyperLynx
+OutputName12=HyperLynx (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=SiSoft
+OutputName16=SiSoft (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
